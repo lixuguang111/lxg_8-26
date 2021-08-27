@@ -17,71 +17,72 @@
 </template>
 <script>
 export default {
-    data() {
-        return {
-            show:false
-        }
-    },
-}
+  data() {
+    return {
+      show: false
+    };
+  }
+};
 </script>
 
-<style lang="scss">
-    .deng{
-        width: 100%;
-        height: 100%;
-    }
-    .che{
-        width: 100%;
-        height:414px;
-        img{
-            width: 100%;
-            height: 414px;
-        }
-    }
-    .hui{
-        width: 100%;
-        height: 0.3rem;
-        background: #999999;
-    }
-    .shou{
-        width: 100%;
-        height: 400px;
-        text-align: center;
-        .shu{
-            margin-top: 1rem;
-            position: relative;
-            input{
-                width: 7rem;
-                height: 1rem;
-                font-size: 18px;
-                border: 1px solid white
-            }
-            p{
-                margin-top: 0.3rem;
-                .ji{
-                    margin-right: 1rem;
-                    color: #999999;
-                    font-size:10px; 
-                }
-            }
-            .yan{
-                position: absolute;
-                top:10px;
-                left: 290px;
-                color: red;
-                font-size: 10px;
-            }
-        }
-        .btn{
-            width: 7rem;
-            height: 1.3rem;
-            color: white;
-            background: red;
-            margin-top: 1rem;
-            border: 1px solid red;
-            border-radius: 1%;
-            font-size: 20px;
-        }
-    }
+<style>
+.deng {
+  width: 100%;
+  height: 100%;
+}
+.che {
+  width: 100%;
+  height: 414px;
+}
+.che img {
+  width: 100%;
+  height: 414px;
+}
+.hui {
+  width: 100%;
+  height: 0.3rem;
+  background: #999999;
+}
+.shou {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+.show .shu {
+  margin-top: 1rem;
+  position: relative;
+}
+.show .shu input {
+  width: 7rem;
+  height: 1rem;
+  font-size: 18px;
+  border: 1px solid white;
+}
+p {
+  margin-top: 0.3rem;
+}
+p .ji {
+  margin-right: 1rem;
+  color: #999999;
+  font-size: 10px;
+}
+.yan {
+  position: absolute;
+  top: 10px;
+  left: 290px;
+  color: red;
+  font-size: 10px;
+}
+
+.btn {
+  width: 7rem;
+  height: 1.3rem;
+  color: white;
+  background: red;
+  margin-top: 1rem;
+  border: 1px solid red;
+  border-radius: 1%;
+  font-size: 20px;
+}
 </style>
 
