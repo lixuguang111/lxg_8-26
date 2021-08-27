@@ -1,6 +1,6 @@
 <template>
     <div class="login">
-        <div class="top">
+        <div class="top" @click="tolog">
             <img src="../assets/img/user.png" alt="">
             <i class="iconfont icon-user" style="font-size:45px;color:#999;border:3px solid #999;border-radius:50%;background-color:white;"></i>
             <p>登录/注册</p>
@@ -42,7 +42,16 @@
 </template>
 <script>
 export default {
-    
+    data(){
+        return{
+
+        }
+    },
+    methods:{
+        tolog(){
+            this.$router.push('/log')
+        }
+    }
 }
 </script>
 <style>
